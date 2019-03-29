@@ -4,7 +4,7 @@
 	<title> Student Confirmation Form</title>
 </head>
 <body>
-
+<hr>
 The Student is confirmed ${student.firstName} ${student.lastName} From ${student.country}
 
 </body>
