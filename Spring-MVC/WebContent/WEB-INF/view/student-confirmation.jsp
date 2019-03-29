@@ -5,6 +5,7 @@
 </head>
 <body>
 <hr>
+<hr>
 The Student is confirmed ${student.firstName} ${student.lastName} From ${student.country}
 
 </body>

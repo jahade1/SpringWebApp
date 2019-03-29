@@ -15,7 +15,7 @@
 	
 	Last name: <form:input path="lastName" />
 	
-	<br><br>
+	<br><br><br>
 	
 	<form:select path="country">
 		<form:option value="USA" label="USA" />
