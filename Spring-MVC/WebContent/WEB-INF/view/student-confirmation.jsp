@@ -6,7 +6,7 @@
 <body>
 <hr>
 <hr>
-The Student is confirmed ${student.firstName} ${student.lastName} From ${student.country}
+The Student is confirmed ${student.firstName} ${student.lastName} From ${student.countryOptions.value}
 
 </body>
 </html>

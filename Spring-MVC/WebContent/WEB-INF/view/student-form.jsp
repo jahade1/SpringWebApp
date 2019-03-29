@@ -17,12 +17,10 @@
 	
 	<br><br><br>
 	
-	<form:select path="country">
-		<form:option value="USA" label="USA" />
-		<form:option value="Brazil" label="Brazil" />
-		<form:option value="Mexico" label="Mexico" />
-		<form:option value="France" labbel="france" />
-		<form:option value="Italy" label="Italy" />
+	<!-- must have getter and setter for country -->
+	Country:<form:select path="country">
+	<!-- using options tag to  populate options from list in student class -->
+		<form:options items="${student.countryOptions}" />
 	</form:select>
 	
 	<br><br>
