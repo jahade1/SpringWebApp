@@ -6,7 +6,8 @@
 <body>
 <hr>
 <hr>
-The Student is confirmed ${student.firstName} ${student.lastName} From ${student.countryOptions}
+The Student is confirmed ${student.firstName} ${student.lastName} From ${student.country}
+Favorite Language is ${student.favoriteLanguage}
 
 </body>
 </html>

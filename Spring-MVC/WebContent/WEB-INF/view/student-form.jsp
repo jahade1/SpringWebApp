@@ -23,6 +23,16 @@
 		<form:options items="${student.countryOptions}" />
 	</form:select>
 	
+	<br><br><br>
+	
+	<!-- radio buttons for favorite language must have getter and setter for fav language -->
+	
+	Java<form:radiobutton path="favoriteLanguage" value="Java"/>
+	C++<form:radiobutton path="favoriteLanguage" value="C++"/>
+	Python<form:radiobutton path="favoriteLanguage" value="Python"/>
+	PHP<form:radiobutton path="favoriteLanguage" value="PHP"/>
+	.NET<form:radiobutton path="favoriteLanguage" value=".NET"/>
+	
 	<br><br>
 	<input type="submit" value="submit" />
 	
