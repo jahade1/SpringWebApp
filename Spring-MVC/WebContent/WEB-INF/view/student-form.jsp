@@ -17,6 +17,15 @@
 	
 	<br><br>
 	
+	<form:select path="country">
+		<form:option value="USA" label="USA" />
+		<form:option value="Brazil" label="Brazil" />
+		<form:option value="Mexico" label="Mexico" />
+		<form:option value="France" labbel="france" />
+		<form:option value="Italy" label="Italy" />
+	</form:select>
+	
+	<br><br>
 	<input type="submit" value="submit" />
 	
 	<!-- when the form is loaded spring will call student.getfirstName() and student.getlastName() -->
