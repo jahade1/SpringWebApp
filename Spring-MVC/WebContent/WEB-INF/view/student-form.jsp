@@ -34,6 +34,12 @@
 	.NET<form:radiobutton path="favoriteLanguage" value=".NET"/>
 	
 	<br><br>
+	
+	Linux<form:checkbox path="operatingSystems" value="Linux" />
+	Microsoft<form:checkbox path="operatingSystems" value="Microsoft" />
+	Mac OS<form:checkbox path="operatingSystems" value="Mac OS"/>
+	
+	<br><br>
 	<input type="submit" value="submit" />
 	
 	<!-- when the form is loaded spring will call student.getfirstName() and student.getlastName() -->
