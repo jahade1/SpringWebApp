@@ -18,9 +18,10 @@ public class Customer {
 	@Size(min=1, message="is required")
 	private String lastName;
 	
+	@NotNull(message="is required")
 	@Min(value=5, message="must be greater than or equal to 5")
 	@Max(value=10, message="must be less than or equal to 10")
-	private int freePasses;
+	private Integer freePasses;
 
 	
 	public String getPostalCode() {
@@ -47,11 +48,11 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
-	public int getFreePasses() {
+	public Integer getFreePasses() {
 		return freePasses;
 	}
 
-	public void setFreePasses(int freePasses) {
+	public void setFreePasses(Integer freePasses) {
 		this.freePasses = freePasses;
 	}
 
