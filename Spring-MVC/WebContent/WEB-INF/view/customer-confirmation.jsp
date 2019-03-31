@@ -10,7 +10,9 @@
 The customer is confirmed ${customer.firstName} ${customer.lastName} <br><br>
 # of free passes is ${customer.freePasses}
 <br><br>
-Postal Code is ${customer.postalCode}
+Postal Code is ${customer.postalCode} Course Code: ${customer.courseCode}
+<br>
+
  
 
 
